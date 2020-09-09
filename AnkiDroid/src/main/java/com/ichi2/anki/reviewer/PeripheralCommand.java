@@ -91,11 +91,11 @@ public class PeripheralCommand {
         ret.add(PeripheralCommand.unicode('3', COMMAND_ANSWER_THIRD_BUTTON, CardSide.ANSWER));
         ret.add(PeripheralCommand.unicode('4', COMMAND_ANSWER_FOURTH_BUTTON, CardSide.ANSWER));
 
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_RIGHT, COMMAND_FLIP_OR_ANSWER_EASE1, CardSide.BOTH));
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_DOWN, COMMAND_FLIP_OR_ANSWER_EASE2, CardSide.BOTH));
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_LEFT, COMMAND_FLIP_OR_ANSWER_EASE3, CardSide.BOTH));
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_UP, COMMAND_FLIP_OR_ANSWER_EASE4, CardSide.BOTH));
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_CENTER, COMMAND_PLAY_MEDIA, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_X, COMMAND_FLIP_OR_ANSWER_EASE1, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_Y, COMMAND_FLIP_OR_ANSWER_EASE2, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BACK, COMMAND_FLIP_OR_ANSWER_EASE3, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_A, COMMAND_FLIP_OR_ANSWER_EASE4, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_RIGHT, COMMAND_PLAY_MEDIA, CardSide.BOTH));
 //        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_MENU, COMMAND_PLAY_MEDIA, CardSide.BOTH));
 
 //        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_SPACE, COMMAND_ANSWER_RECOMMENDED, CardSide.ANSWER));
