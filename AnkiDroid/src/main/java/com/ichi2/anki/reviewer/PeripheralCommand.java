@@ -95,7 +95,8 @@ public class PeripheralCommand {
         ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_Y, COMMAND_FLIP_OR_ANSWER_EASE2, CardSide.BOTH));
         ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BACK, COMMAND_FLIP_OR_ANSWER_EASE3, CardSide.BOTH));
         ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_A, COMMAND_FLIP_OR_ANSWER_EASE4, CardSide.BOTH));
-        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_DPAD_RIGHT, COMMAND_PLAY_MEDIA, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_L1, COMMAND_PLAY_MEDIA, CardSide.BOTH));
+        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_BUTTON_R1, COMMAND_PLAY_MEDIA, CardSide.BOTH));
 //        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_MENU, COMMAND_PLAY_MEDIA, CardSide.BOTH));
 
 //        ret.add(PeripheralCommand.keyCode(KeyEvent.KEYCODE_SPACE, COMMAND_ANSWER_RECOMMENDED, CardSide.ANSWER));
